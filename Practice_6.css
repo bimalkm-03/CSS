@@ -1,0 +1,17 @@
+div{
+    background-color: blueviolet;
+    border: black solid 2px;
+    flex-direction: row;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(251, 250, 250);
+    background-color: black;
+    border: red solid 2px;
+}
+
+li{
+    list-style-type: none;
+}

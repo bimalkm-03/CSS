@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: o;
+    color: white;
+}
+#nevigar{
+    height: 60px;
+    background-color: #0f1111;
+    border-style: solid;
+    border-color: white;
+}
+button{
+    background-color: #f08804;
+}
+#a1{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 60px;
+    text-decoration: none;
+}

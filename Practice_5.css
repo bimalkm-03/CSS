@@ -1,0 +1,9 @@
+div{
+    color: whitesmoke;
+    height: 100px;
+    width: 100px;
+    background-image: url("dice.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+}
