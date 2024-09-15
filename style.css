@@ -6,13 +6,15 @@ div{
     position: absolute;
     top: 100px;
     left: 100px;
-    animation-name: BlinkAnimation;
-    animation-duration: 0.2s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
+    animation: BlinkAnimation 0.2s linear 0s infinite normal;
+    animation: LineAnimation 1s ease-in 0s infinite normal;
 }
 
 @keyframes BlinkAnimation{
     from{background-color: blue;}
     to{background-color: red;}
+}
+@keyframes LineAnimation{
+    from{top: 0px;}
+    to{top: 300px;;}
 }
