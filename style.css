@@ -1,22 +1,18 @@
 div{
-    height: 100px;
-    width: 100px;
+    height: 600px;
+    width: 600px;
     border: 2px solid black;
-    background-color: aquamarine;
+    background-color: blue;
     position: absolute;
     top: 100px;
     left: 100px;
-    transition: all 3s ease-in;
+    animation-name: BlinkAnimation;
+    animation-duration: 0.2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
 }
 
-div:hover{
-    background-color: blue;
-    color: beige;
-    font-size: 20px;
-    transform: scale(2);
-    transform: rotate(360deg);
-    transform: translate(20px);
+@keyframes BlinkAnimation{
+    from{background-color: blue;}
+    to{background-color: red;}
 }
-div:active{
-    background-color: brown;
-} 
